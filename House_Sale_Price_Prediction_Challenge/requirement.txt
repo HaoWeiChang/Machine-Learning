@@ -1,0 +1,8 @@
+pip install pandas
+pip install numpy
+pip install tensorflow
+pip install matplotlib
+pip install seaborn
+pip install keras
+pip install scikit-learn
+pip install mlxtend  
