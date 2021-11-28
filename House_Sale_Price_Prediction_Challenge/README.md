@@ -220,9 +220,8 @@ x_test = test_Data
 ```
 
 > 正規化處理  
-> 使用 StandardScaler，將每一筆資料縮放為 0~1 之間。  
-> 此正規化是為了能讓數值範圍差距較大的，縮小為 0~1 之間，  
-> 讓 Training，能準確預估。
+> 使用 StandardScaler，此正規化是為了能讓數值範圍差距較大的，  
+> 縮小為 0~1 之間，讓 Training，能準確預估。
 
 ```python
 scaler = StandardScaler().fit(x_train)
